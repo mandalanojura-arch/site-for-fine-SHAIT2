@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url(download.jpeg);
+  background-color: rgba(221, 214, 214, 0.821);
+  background-blend-mode: lighten;
+  background-attachment: fixed;
+}
+#mySubmit{
+  cursor:pointer;
+  font-size: 2em;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: rgb(186, 186, 186);
+  transition: background-color 0.25s;
+}
+#mySubmit:hover {
+  background-color: rgb(146, 146, 146);
+}
+.labels {
+  font-size: 2em;
+}
+#myAge {
+  font-size: 1.5em;
+}
+#myFullName {
+  font-size: 1.5em;
+}
+.results {
+  font-size: 1em;
+  font-weight: bold;
+}
